@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+tensorflow
+tensorboard_plugin_profile
