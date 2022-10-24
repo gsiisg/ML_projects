@@ -5,6 +5,9 @@
 ### install WSL2
 https://learn.microsoft.com/en-us/windows/wsl/install
 
+### install CUDA toolkit for wsl (use Option 1)
+https://docs.nvidia.com/cuda/wsl-user-guide/index.html
+
 ### install docker desktop
 https://www.docker.com/products/docker-desktop/
 
@@ -21,4 +24,4 @@ https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers
 echo.
 docker run -it --name Geo_Container --rm --gpus all --mount type=bind,source=\\wsl$\Ubuntu-20.04\home\gso\data,target=/home/gso/data tf
 ```
-- add folder to window's PATH environmental variable
+- add folder to window's PATH environmental variable https://www.computerhope.com/issues/ch000549.htm
