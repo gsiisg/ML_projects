@@ -36,6 +36,7 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
 	curl \
+    git \
 	python3.9 \
 	python3.9-distutils 
 
